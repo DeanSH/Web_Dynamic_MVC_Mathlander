@@ -18,5 +18,7 @@ Feel free to use the Jaydox login details provided below as Display of learner s
 From this account you can test navigation to competition from the animated Star on the home page, Validation for competition form, commenting on any tutorial individually from each other tutorial, and view statistics for navigation history or math speed trainer scores on the home page! Welcome to test out the Speed Trainer in the games tab, and once time is up, or the user click to quit the running game session, the score statistics are recorded and it is possible to view these and the history of results from the home page.
 
 Here is some existing accounts FYI:
+
 Jaydox:123456   << Learner Acc (Best Suited to see functionality)
+
 Deano:123456    << Educator Acc
