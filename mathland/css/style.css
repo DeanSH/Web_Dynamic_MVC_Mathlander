@@ -1,0 +1,222 @@
+﻿/* 
+	CSS Style Support for Font Familys,Font Sizes, Margins, Borders, Padding, Image Heights and Widths,
+	Background colors, Font Colors, Positions and more! Naming conventions are self explaining.
+	Created by Dean Stanley-Hunt 08/2018!
+*/
+
+
+/* Math Trainer Style Stuff */
+#question_math {
+    color: #559;
+    font-size: 3em;
+    padding: 0px;
+}
+.optionerror {
+    border: 1px solid #f00;
+}
+#options_error {
+    color: #c30;
+}
+#op_wrapper {
+    /*display: table-cell;
+    padding: 0.2em 1em;*/
+}
+/* Math Trainer Style Stuff Ends */
+
+/* Animated Competition Star Stuff Starts */
+#wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width 100%;
+    margin: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#bouncing-star {
+	height: 200px;
+	position: absolute;
+	top: 20%;
+	left: -15%;
+    margin-left: -50px;
+    z-index: 99;
+}
+
+/* Animated Competition Star Stuff ends */
+
+/* All other styling starts */
+input {
+    border: 1px solid #ccc;
+    padding: 0.2em;
+    font-size: 1em;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 0.2em;
+}
+input:focus {
+    border-color: #3964fc;
+}
+input[type="button"] {
+    border-radius: 10px;
+    border: 1px outset #666;
+    cursor: pointer;
+    padding: 0.8em 1em;
+    background-color: #def;
+}
+input[type="button"]:hover {
+    border-style: inset;
+}
+input[type="submit"] {
+    border-radius: 10px;
+    border: 1px outset #666;
+    cursor: pointer;
+    padding: 0.8em 1em;
+    background-color: #def;
+}
+input[type="submit"]:hover {
+    border-style: inset;
+}
+button[type="submit"] {
+    border-radius: 10px;
+    border: 1px outset #666;
+    cursor: pointer;
+    padding: 0.8em 1em;
+    background-color: #def;
+}
+button[type="submit"]:hover {
+    border-style: inset;
+}
+
+.mymargincenter {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.myheadertext{
+	position:relative;
+	text-align:center;
+	color:silver;
+	font-family: 'Courgette', cursive;
+}
+
+.mynav{
+	background-color:white;
+}
+
+.mysilverbg{
+	background-color:silver;
+}
+
+.myinfo {
+	padding:10px;
+	border:0px black solid;
+}
+
+.myinfoborder {
+	padding:7px;
+	border:1px grey solid;
+}
+
+.myinfoimage{
+	background-color:white;
+	height:200px;
+}
+
+.myinfoimagestacked{
+	background-color:white;
+	height:200px;
+}
+
+.myinfotext{
+	color:silver;
+	font-family: 'Shrikhand', cursive;
+}
+
+.myfooter {
+	padding:1px;
+	border:0px black solid;
+}
+
+.myborder {
+	border:0px black solid;
+}
+
+.nopadding{
+	padding:0px;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.myslide {
+	background-color:white;
+}
+
+.myslideimage{
+	height:500px;
+}
+
+.myslidetext{
+	color:red;
+	font-family: 'Shrikhand', cursive;
+}
+
+.mygallerylarge {
+	background-color:white;
+	height:550px;
+}
+
+.mygallerysmall {
+	background-color:white;
+	height:275px;
+}
+
+.mygallerysmalltext {
+	background-color:white;
+    height:275px;
+}
+
+.mygallerytext {
+	color:black;
+	font-family: 'Courgette', cursive;
+	font-size:x-small;
+}
+
+.mygalleryimages{
+	width:100%;
+	height:100%;
+}
+
+.mysocialmediaimages{
+	background-color:white;
+	width:50px;
+	height:50px;
+}
+
+.myform {
+    padding:10px;
+	border:0px black solid;
+	background-color:silver;
+}
+
+.myformtextbox {
+    width:95%;
+    max-width:180px;
+}
+
+.myscrollybox {
+	height:300px;
+	overflow-y: scroll;
+}
+
+.mygooglemap{
+	height:400px;
+	margin:auto;
+}
+
+#map {
+	height:100%;
+    width:100%;
+}

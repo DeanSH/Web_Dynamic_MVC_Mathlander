@@ -1,0 +1,198 @@
+﻿/* Responsive to different devices
+   Created by Dean Stanley-Hunt 08/2018
+   14 Different Width Setups for Smoother scaling!
+==========  Mobile First Method  ==========
+
+    Extra Small Devices, Phones */
+    @media only screen and (min-width : 120px) {
+		.myslideimage{height:150px;}
+		.mygallerylarge{height:200px;}
+		.mygallerytext{font-size:xx-small;}
+		.mygallerysmall{height:140px;}
+		.mygallerysmalltext{height:320px;}
+		.myinfoimage{height:50px;}
+		.myinfoimagestacked{height:90px;}
+		h1{font-size:large}
+		h2{font-size:medium}
+		h3{font-size:large}
+    }
+
+    @media only screen and (min-width : 200px) {
+		.myslideimage{height:200px;}
+		.mygallerylarge{height:240px;}
+		.mygallerytext{font-size:xx-small;}
+		.mygallerysmall{height:170px;}
+		.mygallerysmalltext{height:280px;}
+		.myinfoimage{height:70px;}
+		.myinfoimagestacked{height:130px;}
+		h1{font-size:large}
+		h2{font-size:medium}
+		h3{font-size:large}
+    }
+
+    @media only screen and (min-width : 280px) {
+		.myslideimage{height:200px;}
+		.mygallerylarge{height:280px;}
+		.mygallerytext{font-size:xx-small;}
+		.mygallerysmall{height:215px;}
+		.mygallerysmalltext{height:240px;}
+		.myinfoimage{height:90px;}
+		.myinfoimagestacked{height:170px;}
+		h1{font-size:large}
+		h2{font-size:medium}
+		h3{font-size:large}
+    }
+
+    @media only screen and (min-width : 330px) {
+		.myslideimage{height:250px;}
+		.mygallerylarge{height:320px;}
+		.mygallerytext{font-size:x-small;}
+		.mygallerysmall{height:255px;}
+		.mygallerysmalltext{height:220px;}
+		.myinfoimage{height:105px;}
+		.myinfoimagestacked{height:210px;}
+		h1{font-size:large}
+		h2{font-size:medium}
+		h3{font-size:large}
+    }
+
+    @media only screen and (min-width : 350px) {
+		.myslideimage{height:250px;}
+		.mygallerylarge{height:320px;}
+		.mygallerytext{font-size:small;}
+		.mygallerysmall{height:255px;}
+		.mygallerysmalltext{height:220px;}
+		.myinfoimage{height:105px;}
+		.myinfoimagestacked{height:210px;}
+		h1{font-size:large}
+		h2{font-size:medium}
+		h3{font-size:large}
+    }
+
+    @media only screen and (min-width : 380px) {
+		.myslideimage{height:250px;}
+		.mygallerylarge{height:380px;}
+		.mygallerytext{font-size:small;}
+		.mygallerysmall{height:280px;}
+		.mygallerysmalltext{height:220px;}
+		.myinfoimage{height:120px;}
+		.myinfoimagestacked{height:260px;}
+		h1{font-size:large}
+		h2{font-size:medium}
+		h3{font-size:large}
+    }
+
+    @media only screen and (min-width : 480px) {
+		.myslideimage{height:300px;}
+		.mygallerylarge{height:450px;}
+		.mygallerytext{font-size:small;}
+		.mygallerysmall{height:350px;}
+		.mygallerysmalltext{height:240px;}
+		.myinfoimage{height:150px;}
+		.myinfoimagestacked{height:310px;}
+		h1{font-size:x-large}
+		h2{font-size:large}
+		h3{font-size:x-large}
+    }
+ 
+    @media only screen and (min-width : 570px) {
+		.myslideimage{height:350px;}
+		.mygallerylarge{height:525px;}
+		.mygallerytext{font-size:medium;}
+		.mygallerysmall{height:425px;}
+		.mygallerysmalltext{height:240px;}
+		.myinfoimage{height:175px;}
+		.myinfoimagestacked{height:350px;}
+		h1{font-size:x-large}
+		h2{font-size:large}
+		h3{font-size:x-large}
+    }
+
+    @media only screen and (min-width : 660px) {
+		.myslideimage{height:400px;}
+		.mygallerylarge{height:600px;}
+		.mygallerytext{font-size:medium;}
+		.mygallerysmall{height:500px;}
+		.mygallerysmalltext{height:240px;}
+		.myinfoimage{height:200px;}
+		.myinfoimagestacked{height:390px;}
+		h1{font-size:x-large}
+		h2{font-size:large}
+		h3{font-size:x-large}
+    }
+
+    /* 
+    ----------------------
+    Small Devices, Tablets
+    */
+    @media only screen and (min-width : 768px) {
+		.myslideimage{height:450px;}
+		.mygallerylarge{height:450px;}
+		.mygallerytext{font-size:large;}
+		.mygallerysmall{height:225px;}
+		.mygallerysmalltext{height:225px;}
+		.myinfoimage{height:170px;}
+		.myinfoimagestacked{height:170px;}
+		h1{font-size:x-large}
+		h2{font-size:large}
+		h3{font-size:x-large}
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+		.myslideimage{height:550px;}
+		.mygallerylarge{height:550px;}
+		.mygallerytext{font-size:large;}
+		.mygallerysmall{height:275px;}
+		.mygallerysmalltext{height:275px;}
+		.myinfoimage{height:200px;}
+		.myinfoimagestacked{height:200px;}
+		h1{font-size:xx-large}
+		h2{font-size:x-large}
+		h3{font-size:xx-large}
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+		.myslideimage{height:650px;}
+		.mygallerylarge{height:650px;}
+		.mygallerytext{font-size:large;}
+		.mygallerysmall{height:325px;}
+		.mygallerysmalltext{height:325px;}
+		.myinfoimage{height:250px;}
+		.myinfoimagestacked{height:250px;}
+		h1{font-size:xx-large}
+		h2{font-size:x-large}
+		h3{font-size:xx-large}
+    }
+    
+    /* Large HD Devices, Wide HD Screens */
+    @media only screen and (min-width : 1500px) {
+		.myslideimage{height:750px;}
+		.mygallerylarge{height:750px;}
+		.mygallerytext{font-size:large;}
+		.mygallerysmall{height:375px;}
+		.mygallerysmalltext{height:375px;}
+		.myinfoimage{height:300px;}
+		.myinfoimagestacked{height:300px;}
+		h1{font-size:xx-large}
+		h2{font-size:x-large}
+		h3{font-size:xx-large}
+    }
+    
+        /* Large Full HD Devices, Wide Full HD Screens */
+    @media only screen and (min-width : 1800px) {
+		.myslideimage{height:850px;}
+		.mygallerylarge{height:850px;}
+		.mygallerytext{font-size:large;}
+		.mygallerysmall{height:425px;}
+		.mygallerysmalltext{height:425px;}
+		.myinfoimage{height:350px;}
+		.myinfoimagestacked{height:350px;}
+		h1{font-size:xx-large}
+		h2{font-size:xx-large}
+		h3{font-size:xx-large}
+    }
+
+
+/* End of responsive to devices, no ultra HD support implemented */
